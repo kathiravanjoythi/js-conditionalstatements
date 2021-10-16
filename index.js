@@ -86,3 +86,9 @@ switch (today.getDay()) {
     console.log('nothing is match')
     break
 }
+
+
+// ternary
+let lightOn = true;
+
+(lightOn == true) ? console.log('status ', 'light on') : console.log('status ', 'light off') 
